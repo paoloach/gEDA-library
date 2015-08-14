@@ -60,7 +60,7 @@ pinseq=4
 P 600 2000 600 1600 1 0 0
 {
 T 600 2000 5 10 0 0 0 0 1
-pintype=power
+pintype=pwr
 T 600 1545 5 10 0 1 90 6 1
 pinlabel=VCC
 T 505 1950 5 10 1 1 180 0 1
@@ -90,10 +90,10 @@ pinlabel=OUT
 T 2095 1045 5 10 1 1 0 0 1
 pinnumber=6
 T 2400 1000 5 10 0 0 0 0 1
-pinseq=0
+pinseq=6
 }
-T -5 -5 8 10 0 1 0 0 1
-device=INA129
+T 1495 195 8 10 0 1 0 0 1
+device=none
 T -5 -5 8 10 0 1 0 0 1
 description=Precision Low Power Intrument Amplifier
 T -5 -5 8 10 0 1 0 0 1
@@ -105,4 +105,8 @@ numslots=1
 T -5 -5 8 10 0 1 0 0 1
 graphical=1
 T -5 -5 8 10 0 1 0 0 1
+author=Paolo Achdjian
+T -5 -8 8 10 0 1 0 0 1
+slotdef=1:1,2,3,4,5,6,7,8
+T -5 -8 8 10 0 1 0 0 1
 author=Paolo Achdjian

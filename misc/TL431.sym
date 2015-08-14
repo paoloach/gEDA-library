@@ -29,7 +29,7 @@ pinlabel=Cathode
 T 1250 1195 5 10 1 1 90 0 1
 pinnumber=K
 T 1250 1300 5 10 0 0 90 6 1
-pinseq=0
+pinseq=3
 }
 P 900 900 1200 900 1 0 0
 {
@@ -43,8 +43,6 @@ T 1000 950 5 10 0 0 0 0 1
 pinseq=2
 }
 T -31 -46 8 10 0 1 0 0 1
-device=TL431
-T -31 -46 8 10 0 1 0 0 1
 graphical=1
 T -31 -46 8 10 0 1 0 0 1
 description=Programmable Shunt Regulator
@@ -54,3 +52,7 @@ T -31 -88 8 10 0 1 0 0 1
 refdes=U?
 T -31 -46 8 10 0 1 0 0 1
 numslots=1
+T -31 -46 8 10 0 1 0 0 1
+slotdef=1:1,2,3
+T -31 -46 8 10 0 1 0 0 1
+device=none
