@@ -25,11 +25,9 @@ T 700 450 5 10 0 0 0 6 1
 pinseq=2
 }
 T 95 50 8 10 0 1 0 0 1
-device=none
+device=XTAL
 T -5 49 8 10 0 1 0 0 1
 graphical=1
-T -5 49 8 10 0 1 0 0 1
-slotdef=1:1,2
 T -5 49 8 10 0 1 0 0 1
 footprint=dip2
 T 195 50 8 10 1 1 0 0 1
@@ -38,3 +36,5 @@ T 95 50 8 10 0 1 0 0 1
 numslots=1
 T 200 600 9 12 1 0 0 0 1
 XTAL
+T -5 49 8 10 0 1 0 0 1
+slotdef=1
