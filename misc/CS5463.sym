@@ -267,10 +267,8 @@ pinseq=2
 T 1200 1400 9 14 1 0 90 0 1
 CS5463
 T -5 -5 8 10 0 1 0 0 1
-footprint=24LSSOP
+footprint=SSOP24
 T -5 -8 8 10 0 1 0 0 1
-refdes=1:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24
-T -5 -8 8 10 0 1 0 0 1
-graphical=1
+refdes=U?
 T -5 -8 8 10 0 1 0 0 1
 author=Paolo Achdjian
